@@ -1,0 +1,14 @@
+{
+	"title": "Rendering Pipeline in JavaScript",
+	"overview": "In this project, I created the rendering pipeline in JavaScript. The user can change position of object and lights in 3D space through the browser and see results immediately. The steps involved are world transformation, lighting calculation, view transformation, perspective transformation, z-clipping, culling, z-sorting and resterization. I use a library called Sylvester to do matrix calculations and Raphael for rasterization. The native HTML5 canvas element created blurry lines due to anti-aliasing. In the future, I plan to access pixel data and implement Bresenham's line drawing algorithm to render it in canvas.",
+	"images": [{
+		"url": "resources/images/gpu.png",
+		"width": "500px",
+		"height": "100%",
+		"caption": "Screenshot of an airplane rasterized in 3D"
+	}],
+	"link":{
+		"url": "http://murlax.com/gpu",
+		"text": "Live Demo"
+	}
+}

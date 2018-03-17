@@ -1,0 +1,19 @@
+{
+	"title": "Subsurface Scattering (Translucency) with Sunflow",
+	"overview": "In this project, we implement a paper by Henrik Wann Jensen to simulate translucent objects. We use Sunflow, an open-source renderer in Java, to do the basic ray tracing and other rendering opertions. We extend Photon Mapping and Diffuse Scattering functions in Sunflow and cast rays from under the surface (thus the name sub surface scattering) to provide the effect of Translucency.",
+	"images": [{
+		"url": "resources/images/sss1.png",
+		"width": "300px",
+		"height": "100%",
+		"caption": "Specular reflection and translucency gives the effect of a Jade material"
+	},{
+		"url": "resources/images/sss2.png",
+		"width": "300px",
+		"height": "100%",
+		"caption": "A lot of light is absorbed in this object giving the effect of a pink sponge"
+	}],
+	"link":{
+		"url": "http://murlax.com/sss",
+		"text": "Project Page"
+	}
+}

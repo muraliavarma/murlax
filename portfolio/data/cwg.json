@@ -1,0 +1,20 @@
+{
+	"title": "Commonwealth Games Capacity Planner",
+	"overview": "This was one of my favorite Flex projects in Cisco. A huge network of routers had to be built for live TV feed transmission from different stadiums during the Games. The tool that I developed helped identify suitable positions for backup links, bandwidth utilization of every link and points of failure in the network. It also helped track primary and backup paths of individual TV feeds and provided a simple interface to monitor large amounts of live information in a browser window. (Note: All router, link and stadium names have been blurred as this data is confidential)",
+	"images": [{
+		"url": "resources/images/cwg1.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "Shows data for one stadium. The color of the line between two routers represents the average utilization of all the links in that bundle, while feed paths are shown in glowing colors. The selected bundle contains 3 links, one of which carries the blue feed as shown in the table."
+	},{
+		"url": "resources/images/cwg2.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "Shows all the routers, links and their bandwidth utilizations for another stadium. The top half (core network) remaines unchanged for all stadiums."
+	},{
+		"url": "resources/images/cwg3.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "This image shows the same link data as a bar chart, filterable by name or utilization. The bottom half shows the feeds going through links as well as the routers they connect."
+	}]
+}

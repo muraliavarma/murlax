@@ -1,0 +1,14 @@
+{
+	"title": "Plastic Bogeys",
+	"overview": "Plastic Bogeys is a Flight Simulation game made in Unity set inside a home using toy airplanes. Players have the freedom to move as they see fit using conventional flight sim controls (pitch/yaw). They also have control over their speed and access to four weapons, namely - a pea shooter, a heat seaking missile, a vision blinder gun  and static electricity that temporarily inverts the enemies controls. Players can test their skills by competing against the ruthless AI or head to head over the internet.",
+	"images": [{
+		"url": "resources/images/airplane.png",
+		"width": "500px",
+		"height": "100%",
+		"caption": "Screenshot of multiplayer dogfight between two airplanes!"
+	}],
+	"link":{
+		"url": "http://murlax.com/unity/flight",
+		"text": "Live Demo"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"title": "Virtual Architect",
+	"overview": "This was my final year undergraduate project. I used 3D Studio Max to create the models and later imported them into the OpenGL space. Users could draw/move objects in the Java based 2D drawing area and fly/pan/rotate around in the 3D navigation area using arrow keys.",
+	"images": [{
+		"url": "resources/images/varc1.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "3D Studio Max workspace that I used to build one of the 3D models."
+	},{
+		"url": "resources/images/varc2.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "Screenshot showing a drawing in the 2D area and the corresponding objects placed in the 3D navigation area."
+	}],
+	"downloads": [{
+		"url": "resources/misc/VArc.pdf",
+		"text": "Final Report"
+	},{
+		"url": "resources/misc/varc.cpp",
+		"text": "OpenGL C++"
+	},{
+		"url": "resources/zips/VArc.zip",
+		"text": "Java Code"
+	}]
+}

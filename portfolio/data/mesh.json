@@ -1,0 +1,13 @@
+{
+	"title": "Artery generation – Mesh Processing",
+	"overview": "Made in Processing for Java, this project enabled users to create a polygon, smooth it, add offsets and use this as a cross section to push it into the screen. The user is also able to edit the mesh, smooth it and revert back to any stage for modifying an earlier part of the artery creation process. We spent a lot of time in designing the architecture. As such, we have a great collection of classes such as Point, Polygon, CrossSection, Artery and Shape.draw() implementation for each of these classes.",
+	"video": {
+		"url": "http://www.youtube.com/embed/HidQ9S4yYfc",
+		"width": 420,
+		"height": 315
+	},
+	"downloads": [{
+		"url": "resources/zips/Artery.zip",
+		"text": "Zipped Project"
+	}]
+}

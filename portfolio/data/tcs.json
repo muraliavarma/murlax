@@ -1,0 +1,19 @@
+{
+	"title": "File Backup and Organizer Tool",
+	"overview": "This was my undergrad summer internship project at TCS (Tata Consultancy Services). I independently developed a highly customized automated file backup tool in Java swings. With the ability to periodically backup a collection of folders in an easy to use tabbed interface, the tool was very customizable and was thus widely used in TCS. I also added an event scheduler to the software to prompt meeting reminders as I had completed the file backup segment well ahead of time.",
+	"images": [{
+		"url": "resources/images/tcs1.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "This shows a tab containing a folder structure and its file contents. Users had options to backup all the tabs and even choose individual files to backup."
+	},{
+		"url": "resources/images/tcs2.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "The image shows a single 'Organizer' tab with the ability to add, edit and delete notify events as well as view all events in a simple calendar. Users could also send events to another person as long as he/she was on the same local area network."
+	}],
+	"downloads": [{
+		"url": "resources/misc/TCS.doc",
+		"text": "Final Report"
+	}]
+}

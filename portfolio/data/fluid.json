@@ -1,0 +1,13 @@
+{
+	"title": "Smoothed Particle Hydrodynamics - Fluid Simulation",
+	"overview": "This project demonstrates the use of WebGL (with Three.js) to simulate fluid motion. We implemeted it using particles as tiny spheres using a paper on Smoothed Particle Hydrodynamics (SPH). The framerate was really low, so the below video shows a small segment of the buffered result so that we can see the fluid motion clearly. Use the buffer option in Live Demo to see continuous fluid motion.",
+	"video": {
+		"url": "http://www.youtube.com/embed/fNoGbf0NMMk",
+		"width": 420,
+		"height": 315
+	},
+	"link":{
+		"url": "http://murlax.com/sph",
+		"text": "Live Demo"
+	}
+}

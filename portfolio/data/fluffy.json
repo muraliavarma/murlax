@@ -1,0 +1,14 @@
+{
+	"title": "icanhascheezburger",
+	"overview": "In this Unity project, we have Fluffy the cat that tries to use its meowing skills and switches that control magnets and fans to lure dogs into cages. The levels require a bit of thinking before it can be cracked. The aim of this project was to create a fun physics based game as part of our Game Development class project. We were unable to find a good model for Fluffy and is funnily just a pink cube while the rest of the environment looks dashing!",
+	"images": [{
+		"url": "resources/images/fluffy.png",
+		"width": "500px",
+		"height": "100%",
+		"caption": "In game screenshot"
+	}],
+	"link":{
+		"url": "http://murlax.com/unity/fluffy",
+		"text": "Live Demo"
+	}
+}

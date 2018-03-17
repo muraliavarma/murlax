@@ -1,0 +1,22 @@
+{
+	"title": "C++ Paint Brush",
+	"overview": "This was my Computer Graphics Lab project during my undergrad studies. Here I implemented Bresenham's line drawing algorithm, filling algorithms and clipping algorithms that I learnt in the theory classes to achieve various features in the tool.",
+	"images": [{
+		"url": "resources/images/paint1.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "This shows an implementation of line drawing, circle drawing and filling algorithms."
+	},{
+		"url": "resources/images/paint2.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "The image highlights the clipping algorithm used for displacing the bottom left portion of the image. It also implements a stretching algorithm which was used to zoom the bottom right of the image."
+	}],
+	"downloads": [{
+		"url": "resources/misc/paint.cpp",
+		"text": "Main File"
+	},{
+		"url": "resources/zips/Paint.zip",
+		"text": "Zipped Project"
+	}]
+}

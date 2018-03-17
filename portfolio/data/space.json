@@ -1,0 +1,10 @@
+{
+	"title": "XNA Space Shooter Game",
+	"overview": "This project was a simple project that involved a 2.5D space shooter game that involved BasicEffect, lighting, textures, loading models and drawing primitives. This helped me get a flavor of the power of XNA 4. I will be working on much more advanced projects in the future for XBOX development.",
+	"images": [{
+		"url": "resources/images/space.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "In game screenshot"
+	}]
+}

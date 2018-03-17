@@ -1,0 +1,14 @@
+{
+	"title": "Yafaray with Blender",
+	"overview": "In this graduate project, I use the amazing Yafaray renderer to create photo realistic images. It mainly highlights 3 features: Volumetrics - which gives the foggy effect, Depth of Field - which gives the blur effect on some of the wine glasses and caustics - which concentrates refracted light to form red patters on the ground.",
+	"images": [{
+		"url": "resources/images/yafaray.png",
+		"width": "500px",
+		"height": "100%",
+		"caption": "Image rendered using Yafaray"
+	}],
+	"link":{
+		"url": "http://murlax.com/yafaray",
+		"text": "Project Page"
+	}
+}

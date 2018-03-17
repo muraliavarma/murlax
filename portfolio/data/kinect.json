@@ -1,0 +1,15 @@
+{
+	"title": "Kinect Soccer",
+	"overview": "This is a graduate special problem that I did to track finger position using Microsoft Kinect (and OpenNI) and simulate soccer with it. Fingers are tracked using their position in 3D space (with depth information tracked by Kinect IR sensors). The slope of fingers is calculated in XY and YZ planes by approximation of an over-constrained problem. This is then rendered in 3D through OpenGL. One of the challenges that I faced was that the Kinect provided gave high confidence values to depth information. I had to use neighboring pixel values to calculate my own confidence values so as to reduce jittering.",
+	"images": [{
+		"url": "resources/images/kinect1.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "Screenshot in one pose"
+	},{
+		"url": "resources/images/kinect2.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "Screenshot of when ball is going to get hit"
+	}]
+}

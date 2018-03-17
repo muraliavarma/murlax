@@ -1,0 +1,15 @@
+{
+	"title": "Inner Circle Framework",
+	"overview": "Inner Circle was a framework of tools developed in various languages and deployed in multiple servers, integrated into a single dashboard mainly for managerial tasks. I required a thorough knowledge of web security to ensure seamless integration of tools from different developers into the framework. One of the tools that I developed for Inner Circle was the 'Resource Planner' tool which needed me to extend the functionality of a Gantt Chart to allow overlapping tasks and thus represent more data in less space.",
+	"images": [{
+		"url": "resources/images/ic1.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "Home page which contains a snapshot of the data in various tools. Here we see two such snapshots generated from the Resource Planner - one for availability & one for tracking leaves."
+	},{
+		"url": "resources/images/ic2.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "The image shows the projects for all employees under a particular manager. Some of the highlights of the tool included its ability to represent simultaneous projects for a resource, the easy-to-use slider navigator for selecting date range and an advanced data filtering mechanism."
+	}]
+}

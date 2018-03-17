@@ -1,0 +1,10 @@
+{
+	"title": "OpenGL Rigid Body Pool Game",
+	"overview": "In this project, we developed a pool game modelling rigid body collisions, texture mapping, quaternions and intuitive UI including angle of hitting the cue ball. We also dealt with the complex problem of resting contact to deal with low velocity collision between multiple balls and pool table rims.",
+	"images": [{
+		"url": "resources/images/pool.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "Screenshot of pool table"
+	}]
+}

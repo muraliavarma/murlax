@@ -1,0 +1,15 @@
+{
+	"title": "Easy Migrate Portal",
+	"overview": "Easy Migrate is easily the most successful project in our team at Cisco. I developed the entire front-end in Flex. The portal has helped acquire a number of customer engagements as a result of the simplificaton of the network migration process. It contains well over 25 screens with options to check hardware and software readiness for various migration tracks, enable project tracking until their closure and monitor project, user and readiness statistics.",
+	"images": [{
+		"url": "resources/images/em1.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "Image shows the output of a readiness check performed with 'show outputs' as input parameter."
+	},{
+		"url": "resources/images/em2.png",
+		"width": "900px",
+		"height": "100%",
+		"caption": "The image shows one of the statistics page for the portal. Here we can see the site user stats as well as project related information, classified by track and type."
+	}]
+}

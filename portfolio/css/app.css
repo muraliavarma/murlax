@@ -1,0 +1,128 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#details {
+  text-align: justify;
+}
+
+.button {
+  border: 2px solid #aaaaaa;
+  height: 38px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+  
+  /*Transition*/
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+  
+  /*Rounded Corners*/
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  
+  /*Gradient*/
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  
+  /*Shadow*/
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.category-selected-false {
+  color: #505050;
+  background: #cfcfcf; 
+}
+.category-selected-false:hover {
+  background-color: #dfdfdf;
+}
+
+.category-selected-true {
+  color: #cfcfcf;
+  background: #303030; 
+}
+.category-selected-true:hover {
+  background: #505050; 
+}
+
+.demo {
+  width: 100px;
+  color: white;
+  float: right;
+  background: #1717a1; 
+}
+
+.demo:hover {
+  background-color: #a4343f;
+}
+
+.download {
+  width: 100px;
+  color: #555555;
+  background: #cfcfcf; 
+}
+
+.download:hover {
+  background-color: #dfdfdf;
+}
+
+ul.img-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+}
+
+ul.img-list li {
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top;
+}
+
+ul.category-list {
+  padding-left: 8px;
+  padding-right: 10px;
+}
+
+ul.category-list li{
+  padding-bottom: 5px;
+}
+
+ul.download-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+}
+
+ul.download-list li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+body {
+  margin: 0 auto;
+  width: 900px;
+  font-size: 13px;
+  font-family: Arial;
+}
+
+.featured {
+  position: absolute;
+  top: 0;
+  right: -3px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid red; 
+  border-left: 10px solid transparent;
+}

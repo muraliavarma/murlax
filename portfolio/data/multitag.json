@@ -1,0 +1,23 @@
+{
+	"title": "Multiple Tags in Unity",
+	"overview": "In this project, I used Unity Editor features to allow game objects to have multiple tags. In the default version of Unity, every object can have only a single tag. This is highly inconvenient when we have objects that share multiple properties since the only option is to create a new compound tag. Not surprisingly, this is one of the top feature requests in Unity.",
+	"images": [{
+		"url": "resources/images/multitag1.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "MultiTag Manager object shows all the objects associated with each tag"
+	},{
+		"url": "resources/images/multitag2.png",
+		"width": "400px",
+		"height": "100%",
+		"caption": "Stored as bitmasks, every gameobject has a dropdown from which the user can select multiple tags with ease"
+	}],
+	"link": {
+		"url": "https://docs.google.com/presentation/d/1n4-Hbb8saer9ALqBtdauMebuMk8F8A1nDML8CZg2-2Y/edit",
+		"text": "Presentation"
+	},
+	"downloads": [{
+		"url": "resources/zips/MultiTag.zip",
+		"text": "Unity Project"
+	}]
+}

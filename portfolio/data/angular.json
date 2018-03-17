@@ -1,0 +1,8 @@
+{
+	"title": "AngularJS Portfolio",
+	"overview": "Time for some self reference! This portfolio was made in AngularJS. The Model View Controller framework helps create easy to read webpages. All the project data is stored in json files. Adding more projects to this portfolio requires minimal effort.",
+	"link": {
+		"url": "https://github.com/muraliavarma/portfolio",
+		"text": "View on Github"
+	}
+}

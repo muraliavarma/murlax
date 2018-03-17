@@ -1,0 +1,19 @@
+{
+	"title": "3D Studio Max House",
+	"overview": "This was a hobby project during my final year of undergraduate studies. To make this dorm room render look realistic, I used bump mapping for getting the faded walls and a complex tiling formula for the floor. I also modelled and textured the chair by extruding cubes. For the final render, I used the VRay plugin in 3D Studio Max.",
+	"images": [{
+		"url": "resources/images/3ds1.png",
+		"width": "425px",
+		"height": "100%",
+		"caption": "Rendered Image"
+	},{
+		"url": "resources/images/3ds2.png",
+		"width": "425px",
+		"height": "100%",
+		"caption": "Another angle of the same scene"
+	}],
+	"downloads": [{
+		"url": "resources/misc/3dsRoom.max",
+		"text": "3ds Max File"
+	}]
+}

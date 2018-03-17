@@ -1,0 +1,59 @@
+<!doctype html>
+<html ng-app>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio V2</title>
+	<link rel="stylesheet" href="css/app.css">
+	<script src="http://code.angularjs.org/1.0.1/angular-1.0.1.js"></script>
+	<script src="js/controllers.js"></script>
+</head>
+<body ng-controller="ProjectCtrl">
+
+	<table rules=cols border=1 frame=vsides style="width: 100%">
+		<tr>
+			<td ng-repeat="category in categories" valign="top" style="text-align: center">
+				<b>{{category.language}}</b>
+				<ul class="category-list">
+					<li ng-repeat="project in category.projects" style="position: relative">
+						<a href="#/project/{{project.id}}" class="button category-selected-{{!!project.selected}}" ng-click="setDetails(project)">
+							{{project.name}}
+							<span ng-show="project.featured" class="featured"/>
+						</a>
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<br/><br/>
+	<div id="details">
+		<a href="{{details.link.url}}" target="_blank" class="button demo" ng-show="details.link">{{details.link.text}}</a>
+		<h3 style="display: inline-block">{{details.title}}</h3>
+		<img ng-src="resources/images/featured.gif" ng-show="details.featured"/>
+		<br/>
+		{{details.overview}}
+		<br/>
+		<br/>
+		<ul class="img-list" ng-show="details.images">
+			<li ng-repeat="img in details.images">
+				<div style="width: {{img.width}}">
+					<img ng-src="{{img.url}}" style="width:{{img.width}}; height:{{img.height}}">
+					<br/>
+					{{img.caption}}
+				</div>
+			</li>
+		</ul>
+		<iframe ng-show="details.video" width="{{details.video.width}}" height="{{details.video.height}}" src="{{details.video.url}}" frameborder="0" allowfullscreen></iframe>
+		<hr/>
+		<div id="downloads" ng-show="details.downloads">
+			<h4>Downloads</h3>
+			<ul class="download-list" ng-show="details.downloads">
+				<li ng-repeat="download in details.downloads">
+					<a href="{{download.url}}" target="_blank" class="button download" ng-show="download.url">{{download.text}}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<br/>
+	<br/>
+</body>
+</html>

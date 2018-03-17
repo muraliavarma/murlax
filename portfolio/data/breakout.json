@@ -1,0 +1,14 @@
+{
+	"title": "Musical Breakout",
+	"overview": "This was my first project in Unity as part of our Game Dev course in Georgia Tech. This game shows a few of the basic tricks that I learnt such as one hit audio clips, following objects, prefabs and many more. There are a few bugs where the ball bounces off weirdly. But everything is awesome when the bricks in game are musical notes and we have Hungarian Rhapsody playing in the background.",
+	"images": [{
+		"url": "resources/images/breakout.png",
+		"width": "500px",
+		"height": "100%",
+		"caption": "In game screenshot"
+	}],
+	"link":{
+		"url": "http://murlax.com/unity/breakout",
+		"text": "Live Demo"
+	}
+}
