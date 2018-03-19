@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Murali Varma - Full Stack Developer</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+	<nav class="container navbar is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<div class="navbar-item"><strong>&lt;murali&gt;&lt;/varma&gt;</strong></div>
+		</div>
+		<div class="navbar-end">
+			<div class="navbar-item">
+				<div class="field is-grouped">
+					<p class="control">
+						<a class="button" target="_blank" href="https://github.com/muraliavarma/repositories">
+							<span class="icon">
+								<i class="fab has-text-black fa-github"></i>
+							</span>
+							<span>Github</span>
+						</a>
+					</p>
+					<p class="control">
+						<a class="button" target="_blank" href="https://www.linkedin.com/in/murlax/">
+							<span class="icon">
+								<i class="fab has-text-black fa-linkedin"></i>
+							</span>
+							<span>Linkedin</span>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<br/><br/><br/>
+
+	<div class="has-text-centered">
+		<section class="hero is-dark">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+						Hi. I'm Murali
+					</h1>
+					<h2 class="subtitle">
+						I am a Full Stack Developer who likes building scalable solutions
+					</h2>
+				</div>
+			</div>
+		</section>
+	</div>
+	<br/><br/><br/>
+	<div class="has-text-justified">
+		<div class="container">
+			<div class="columns is-light">
+				<div class="column">
+					<p class="title">Slots Challenges</p>
+					<div class="tags">
+						<span class="tag is-info">ReactJS</span>
+						<span class="tag is-info">PHP</span>
+					</div>
+					<p class="subtitle">Designed and implemented the core logic in PHP for a robust challenges framework in Zynga Hit It Rich! Slots game. This has been extended and used for multiple features, all configurable from a single feature-rich admin page made in React JS. Unfortunately I can not share any more info as this is an active prject in Zynga.</p>
+				</div>
+				<div class="column">
+					<p class="title">Elasticache Migration</p>
+					<div class="tags">
+						<span class="tag is-info">AWS</span>
+						<span class="tag is-info">Lambda Functions</span>
+						<span class="tag is-info">Python</span>
+					</div>
+					<p class="subtitle">Devised migration plan for moving volatile keys from internal Memcached solution to AWS Elasticache. Wrote AWS Lambda functions in Python to handle automatic replacement of bad nodes. Unfortunately I can not share any more info as this is an active prject in Zynga.</p>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">YouSpot
+				<a class="button" target="_blank" href="https://chrome.google.com/webstore/detail/youspot/bojlgkgcbdcldkhjjapllgncgdgalhfj">
+					<span class="icon is-small">
+						<i class="fas fa-external-link-alt"></i>
+					</span>
+					<span>
+						Chrome Webstore
+					</span>
+				</a>
+			</p>
+			<div class="columns is-light">
+				<div class="column">
+					<figure class="image is-4by3">
+						<img src="assets/youspot.png">
+					</figure>
+				</div>
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">AngularJS</span>
+						<span class="tag is-info">NodeJS</span>
+						<span class="tag is-info">Spotify API</span>
+					</div>
+					<p class="subtitle">
+						I listen to a lot of YouTube song mixes to discover new music. But of the 20 odd tracks in the video, I usually like only a couple of them. So, I created this chrome extension which parses YouTube page data and adds them to your Spotify playlist of choice.
+						<br/><br/>
+						During this project, I had to find solutions for problems that I had never faced before. Dealing with CORS, especially in the Chrome Extension context was quite chalenging. This was also the first time I had used an OAuth flow (for Spotify Integration).
+						<br/><br/>
+						Image here shows a screenshot of a YouTube page with the YouSpot extension overlaid on the right side. The extension shows the songs that were parsed from the page that match a song name in Spotify. I chose most of the songs (green = selected, grey = unselected) and added them to one of my existing (or new) playlist in Spotify.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">JS RayTracer
+				<a class="button" target="_blank" href="https://github.com/muraliavarma/raytracer_nodejs">
+					<span class="icon is-small">
+						<i class="fab fa-github"></i>
+					</span>	
+					<span>
+						Github
+					</span>
+				</a>
+			</p>
+			<div class="columns is-light">
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">ThreeJS</span>
+						<span class="tag is-info">AngularJS</span>
+						<span class="tag is-info">NodeJS</span>
+					</div>
+					<p class="subtitle">
+						In this project I created a Three.js scene where users could add objects in any x,y,z coordinate. Then when we hit Render, it sends this data to a NodeJS server, which does a RayTracer calculation to figure out photorealistic ambient, specular and diffuse values for each pixes in the resulting image.
+						<br/><br/>
+						One of the cool things about this project was that I created very nice and extensible Data Structures like Sphere Shape, Phong Shader, Point Light etc. This project has a lot of potential and I plan to work on this a lot more sometime in the future.
+						<br/><br/>
+						Image here shows a screenshot of the working app. We have a simple scene with a single point light, 2 balls and a blue plane. When we hit render, it goes to the server, computes a photorealistic image and sends the data back as a png image through a web socket.
+					</p>
+				</div>
+				<div class="column">
+					<figure class="image is-1by1">
+						<img src="assets/raytracer.png">
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">Shapes AI Game
+				<a class="button" target="_blank" href="https://github.com/muraliavarma/ShapesAI">
+					<span class="icon is-small">
+						<i class="fab fa-github"></i>
+					</span>	
+					<span>
+						Github
+					</span>
+				</a>
+			</p>
+			<div class="columns is-light">
+				<div class="column">
+					<figure class="image is-2by1">
+						<img src="assets/shapesAI.png">
+					</figure>
+				</div>
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">Unity</span>
+						<span class="tag is-info">AI</span>
+						<span class="tag is-info">NodeJS</span>
+					</div>
+					<p class="subtitle">
+						In this project, we created a game where we controlled a simple shape that required us to solve puzzles. The interesting thing was that some puzzles were only partially solvable by the player, the remaining part required a companion AI.
+						<br/><br/>
+						This AI would analyze the expected final state and the data it has at hand and figure out all possible ways in which it can succeed and then use the most optimal solution. If player changes state during this time, the AI would recompute its state.
+						<br/><br/>
+						Image here shows a screenshot of the player shape on its route to solve one of the puzzles. After this, the AI would have gone on to solve the rest of the puzzle
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">Kinect Soccer</p>
+			<div class="columns is-light">
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">C++</span>
+						<span class="tag is-info">MS Kinect</span>
+						<span class="tag is-info">OpenGL</span>
+					</div>
+					<p class="subtitle">
+						This is a graduate special problem that I did to track finger position using Microsoft Kinect (and OpenNI) and simulate soccer with it. Fingers are tracked using their position in 3D space (with depth information tracked by Kinect IR sensors). The slope of fingers is calculated in XY and YZ planes by approximation of an over-constrained problem.
+						<br/><br/>
+						This is then rendered in 3D through OpenGL. One of the challenges that I faced was that the Kinect provided gave high confidence values to depth information. I had to use neighboring pixel values to calculate my own confidence values so as to reduce jittering.
+						<br/><br/>
+						Image here shows a screenshot of the different states by which the RGB and depth info of the fingers is translated into fake legs in the 3D world
+					</p>
+				</div>
+				<div class="column">
+					<figure class="image is-3by2">
+						<img src="assets/kinect.png">
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">JS Rendering Pipeline
+				<a class="button" target="_blank" href="/gpu">
+					<span class="icon is-small">
+						<i class="fas fa-desktop"></i>
+					</span>	
+					<span>
+						Live Demo
+					</span>
+				</a>
+			</p>
+			<div class="columns is-light">
+				<div class="column">
+					<figure class="image is-16by9">
+						<img src="assets/gpu.png">
+					</figure>
+				</div>
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">JavaScript</span>
+						<span class="tag is-info">Rendering</span>
+						<span class="tag is-info">NodeJS</span>
+					</div>
+					<p class="subtitle">
+						In this project, I created the rendering pipeline in JavaScript in a single HTML page. The user can change position of object and lights in 3D space through the browser and see results immediately. The steps involved are world transformation, lighting calculation, view transformation, perspective transformation, z-clipping, culling, z-sorting and resterization.
+						<br/><br/>
+						I use a library called Sylvester to do matrix calculations and Raphael for rasterization. The native HTML5 canvas element created blurry lines due to anti-aliasing. In the future, I plan to access pixel data and implement Bresenham's line drawing algorithm to render it in canvas.
+						<br/><br/>
+						Image here shows a screenshot of a 3D plane which is rendered as a series of pixels after going through the rendering pipeline. Click the Live Demo above to play with these values in real time.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">Forest L-System
+				<a class="button" target="_blank" href="/forest">
+					<span class="icon is-small">
+						<i class="fas fa-desktop"></i>
+					</span>	
+					<span>
+						Live Demo
+					</span>
+				</a>
+				<a class="button" target="_blank" href="https://github.com/muraliavarma/forest_lsystem">
+					<span class="icon is-small">
+						<i class="fab fa-github"></i>
+					</span>	
+					<span>
+						Github
+					</span>
+				</a>
+				<a class="button" target="_blank" href="/forest/writeup.html">
+					<span class="icon is-small">
+						<i class="fas fa-pencil-alt"></i>
+					</span>	
+					<span>
+						Writeup
+					</span>
+				</a>
+			</p>
+			<div class="columns is-light">
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">JavaScript</span>
+						<span class="tag is-info">L-Systems</span>
+						<span class="tag is-info">ThreeJS</span>
+					</div>
+					<p class="subtitle">
+						In this project, we created different types of tree structures using L-systems. In a forest, many such trees compete for light and fight against gravity (resulting in sagging trees due to "geotropism")
+						<br/><br/>
+						We used Three.js for rendering the forest and a Turtle to draw the trees using grammar rules from the L-system theory.
+						<br/><br/>
+						Image here shows a screenshot of a snapshot of the forest after a few iterations of randomized seed distribution. Redder colors are older trees and generally taller. They grow and die, leaving the younger ones to thrive after a certain time, resulting in a very dynamic environment. Try out the Live Demo link above to see it in action
+					</p>
+				</div>
+				<div class="column">
+					<figure class="image is-2by1">
+						<img src="assets/forest.png">
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<br/><hr/><br/>
+
+		<div class="container">
+			<p class="title">Commonwealth Games Network Visualization</p>
+			<div class="columns is-light">
+				<div class="column">
+					<figure class="image is-16by9">
+						<img src="assets/cwg.png">
+					</figure>
+				</div>
+				<div class="column">
+					<div class="tags">
+						<span class="tag is-info">Flash</span>
+						<span class="tag is-info">Network</span>
+					</div>
+					<p class="subtitle">
+						A huge network of routers had to be built for live TV feed transmission from different stadiums during the Games. The tool that I developed helped identify suitable positions for backup links, bandwidth utilization of every link and points of failure in the network. It also helped track primary and backup paths of individual TV feeds and provided a simple interface to monitor large amounts of live information in a browser window.
+						<br/><br/>
+						Image here shows a screenshot of data for one stadium. The color of the line between two routers represents the average utilization of all the links in that bundle, while feed paths are shown in glowing colors. The selected bundle contains 3 links, one of which carries the blue feed as shown in the table.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="content has-text-centered">
+				<p>
+					<span>---</span>
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

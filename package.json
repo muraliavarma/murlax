@@ -1,0 +1,15 @@
+{
+  "name": "murlax",
+  "version": "1.0.0",
+  "description": "Personal Webpage of Murali Varma",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/muraliavarma/murlax"
+  },
+  "author": "Murali Varma",
+  "license": "ISC"
+}
